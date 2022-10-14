@@ -4,7 +4,7 @@ G's ACADEMY 課題 00
 
 ### デプロイページ
 
-https://masahiro111.github.io/html_masahiro_00/
+https://masahiro111.github.io/html_masahiro_T60/
 
 ### サイトの使用方法
 
