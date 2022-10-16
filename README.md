@@ -6,7 +6,7 @@ G's ACADEMY 課題 00
 
 https://masahiro111.github.io/html_masahiro_00/
 
-### サイトの使用方法
+### サイトの使い方
 
 ### 使用したライブラリ
 
