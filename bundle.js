@@ -99,7 +99,7 @@
 
             Promise.all(
                 selectedBlocks.map(template =>
-                    fetch(`../templates/${template}.html`).then(
+                    fetch(`./templates/${template}.html`).then(
                         response => response.text()
                     )
                 )
