@@ -1,5 +1,87 @@
-<section class="font-sans text-center my-8 px-8">
-  <h1 class="capitalize font-medium">Ready to get started?</h1>
-  <p class="text-gray-700 mt-2 mb-6">But I must explain to you how all this mistaken idea of denouncing </p>
-  <button class="bg-black hover:bg-gray-900 text-white hover:text-white py-3 px-6 uppercase text-xs tracking-wide">Learn More</button>
+<!-- Contact1 -->
+<section
+         id="course"
+         class="pt-20 pb-20 text-gray-600 body-font relative">
+  <div class="container px-5 pb-5 mx-auto text-center text-gray-600">
+    <h2 class="mb-10 font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Contact</h2>
+    <h4 class="font-bold text-lg mb-10">説明会お申し込み・お問い合わせ</h4>
+    <p class="text-base mb-4 leading-8">ぜひ1度、足を運んでみませんか。説明会は随時開催中。<br>その他、お問い合わせもお気軽にどうぞ。お待ちしております。</p>
+    <p class="text-base mb-4 leading-8"> ※チーズアカデミーは実際には存在しません。<br>間違っても問い合わせしないようお願いいたします。</p>
+  </div>
+  <div class="container px-5 mx-auto">
+    <div class="lg:w-1/2 md:w-2/3 mx-auto">
+      <div class="flex flex-wrap -m-2">
+        <div class="p-2 w-full">
+          <div class="relative">
+            <label for="name" class="leading-7 text-sm text-gray-600">お名前</label>
+            <input type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+          </div>
+        </div>
+        <div class="p-2 w-full">
+          <div class="relative">
+            <label for="name-kana" class="leading-7 text-sm text-gray-600">お名前（カナ）</label>
+            <input type="text" id="name-kana" name="name-kana" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+          </div>
+        </div>
+        <div class="p-2 w-full">
+          <div class="relative">
+            <label for="email" class="leading-7 text-sm text-gray-600">メールアドレス</label>
+            <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+          </div>
+        </div>
+        <div class="p-2 w-full">
+          <div class="relative">
+            <label for="kikkake" class="leading-7 text-sm text-gray-600">チーズアカデミーを知ったきっかけ</label>
+            <select
+                    id="countries"
+                    class="w-full p-2.5 bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 leading-8"
+                    style="background-position: right .5rem center;">
+              <option selected>選択してください</option>
+              <option value="1">google検索</option>
+              <option value="2">SNS</option>
+              <option value="3">紹介</option>
+              <option value="4">たまたま通りかかった</option>
+              <option value="5">その他</option>
+            </select>
+          </div>
+        </div>
+        <div class="p-2 w-full">
+          <div class="relative">
+            <label for="reason-for-applying" class="leading-7 text-sm text-gray-600">志望動機</label>
+            <hr class="border border-gray-200">
+            <div class="flex items-center mb-4 mt-4">
+              <label for="default-checkbox-1" class="text-sm font-medium text-gray-700 dark:text-gray-300">
+                <input id="default-checkbox-1" name="reason-for-applying" type="checkbox" value="1" class="w-4 h-4 mr-2 border-2 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">起業をしたい
+              </label>
+            </div>
+            <div class="flex items-center mb-4 mt-4">
+              <label for="default-checkbox-2" class="text-sm font-medium text-gray-700 dark:text-gray-300">
+                <input id="default-checkbox-2" name="reason-for-applying" type="checkbox" value="1" class="w-4 h-4 mr-2 border-2 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">チーズ系企業に就職・転職したい
+              </label>
+            </div>
+            <div class="flex items-center mb-4 mt-4">
+              <label for="default-checkbox-3" class="text-sm font-medium text-gray-700 dark:text-gray-300">
+                <input id="default-checkbox-3" name="reason-for-applying" type="checkbox" value="1" class="w-4 h-4 mr-2 border-2 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">チーズと関わる仕事をしており、仕事に生かしたい
+              </label>
+            </div>
+            <div class="flex items-center mb-4 mt-4">
+              <label for="default-checkbox-4" class="text-sm font-medium text-gray-700 dark:text-gray-300">
+                <input id="default-checkbox-4" name="reason-for-applying" type="checkbox" value="1" class="w-4 h-4 mr-2 border-2 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">チーズの教養を身につけたい
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="p-2 mb-8 w-full">
+          <div class="relative">
+            <label for="message" class="leading-7 text-sm text-gray-600">お問い合わせ内容</label>
+            <textarea id="message" name="message" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+          </div>
+        </div>
+        <div class="py-2 w-full">
+          <button class="w-52 block mx-auto tracking-widest text-white bg-fuchsia-600 border-0 py-2 px-12 focus:outline-none hover:bg-fuchsia-800 rounded-sm font-bold">送信</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
+<!-- /Contact -->

@@ -14,16 +14,27 @@ const fontAwesomePath =
 const fontAwesomeIntegrity =
   "sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/";
 const stitchesHTML = html => `<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href=${stitchesCSSPath} rel="stylesheet">
-    <link rel="stylesheet" href=${fontAwesomePath} integrity=${fontAwesomeIntegrity} crossorigin="anonymous">
-    <title>Stitches</title>
-  </head>
-  <body>${html}</body>
+<!DOCTYPE html>
+<html lang="ja">
+    <!-- 最初の設定は終わっています 必要な方は触ってください -->
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>チーズアカデミー</title>
+
+        <!-- すみません！Tailwind CSS を使わせていただきます 🙇 -->
+        <script src="https://cdn.tailwindcss.com"></script>
+
+    </head>
+    <!-- 最初の設定は終わっています 必要な方は触ってください -->
+
+    <body>
+        <!-- この中に記述していく -->
+        <!-- ここから下にコードを書く -->
+        ${html}
+    </body>
 </html>`;
 
 dragula([snippets, droppable], {
