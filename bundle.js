@@ -8,13 +8,8 @@
         const snippet = document.querySelectorAll(".js-snippet");
         const filter = document.querySelector(".js-filter");
         const downloadBtn = document.querySelector(".js-download");
-        const deleteBtnHtml =
-            "<div class='bg-white hidden absolute top-0 left-0 js-delete-btn px-4 py-2 shadow'><i class='far fa-trash-alt pointer-events-none'></i></div>";
-        const stitchesCSSPath = "https://stitches.hyperyolo.com/output.css";
-        const fontAwesomePath =
-            "https://use.fontawesome.com/releases/v5.6.3/css/all.css";
-        const fontAwesomeIntegrity =
-            "sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/";
+        const deleteBtnHtml = "<div class='bg-white hidden absolute top-0 left-0 js-delete-btn px-4 py-2 shadow'><i class='far fa-trash-alt pointer-events-none'></i></div>";
+
         const stitchesHTML = html => `
 <!DOCTYPE html>
 <html lang="ja">
